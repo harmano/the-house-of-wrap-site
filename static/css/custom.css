@@ -1,0 +1,335 @@
+/*...... Nav ......*/
+
+nav ul a {
+    color: black;
+
+}
+
+nav {
+    background-color: white;
+    box-shadow: 2px 2px;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+
+}
+
+.links .font-1 a {
+  color: black;
+}
+
+.links .font-1 a:hover {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+button:hover {
+  background-color:green;
+}
+
+/*...... Footer ......*/
+
+footer {
+    background-color: white;
+    box-shadow: 2px 2px;
+}
+
+/*...... Font ......*/
+.font-1{
+    font-size: 9px;
+}
+
+.font-camaro{
+  font-family: 'Laila', serif;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.font-service{
+  font-family: 'Laila', serif;
+  font-size: 15px;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/*... Viewport ...*/
+
+    /*... Small devices (landscape phones, 576px and up)...*/
+
+@media (min-width: 176px) {
+
+     .navlinks:hover{
+    text-decoration: none;
+    color: black;
+}
+    .font-camaro{
+      font-family: 'Laila', serif;
+      margin-left: 15px;
+      font-size: 12px;
+    }
+
+     .font-1{
+    font-size: 6px;
+    }
+
+    .img-portfolio {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    }
+}
+
+@media (min-width: 576px) {
+
+     .navlinks:hover{
+    text-decoration: none;
+    color: black;
+}
+    .font-1{
+        font-size: 9px;
+        }
+
+    .img-portfolio {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    }
+}
+
+    /*... Medium devices (tablets, 768px and up)...*/
+@media (min-width: 768px) {
+    .margin-top-header{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+}
+
+    /*... Large devices (desktops, 992px and up)...*/
+@media (min-width: 992px) {
+
+    .margin-top-header{
+        padding-bottom: ;
+        padding-top: 50px;
+    }
+
+    .margin-bottom-header{
+        padding-bottom: 30px;
+    }
+}
+
+    /*... Extra large devices (large desktops, 1200px and up)...*/
+@media (min-width: 1200px) {
+
+    .margin-top-header{
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+
+
+}
+
+
+.v-align{
+    vertical-align: middle;
+}
+
+.margintop{
+    margin: 50px;
+}
+
+.ho:hover {
+  text-decoration: none;
+}
+
+
+.button2{
+
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.botton2 li a i:hover{
+    background: #7C94B1;
+}
+
+.navlinks:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*...... Neon Logo ......*/
+
+
+
+
+#my-5{
+    width: 100px;
+    height: 2px;
+    color: red;
+    border: 0;
+    border-top: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+/*.... Services ....*/
+
+.avatar {
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 9px solid #648ea461;
+  margin-top: 10px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.logo-icon{
+    margin-left: 4%;
+}
+
+
+.contact-button{
+  border-radius: 40px;
+  background-color: grey;
+  font-size: 10px;
+}
+
+/*..... Nav ....*/
+
+
+.bar1, .bar2, .bar3, .bar4 {
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  margin: 8px 0;
+  transition: 0.9s;
+}
+
+.sidenav-trigger{
+    margin-top: 10px;
+}
+/* ....
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+} ...*/
+
+.sidenav li:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 800;
+}
+
+
+.sidenav li>a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 800;
+}
+
+/*.... Tabs ..................................................................*/
+
+/* Style the tab */
+.tab2 {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1573E9;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #1573E9;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border:
+  border-top: none;
+}
+
+.tabcontent1 {
+  display: ;
+  padding: 6px 12px;
+  border:
+  border-top: none;
+}
+
+
+#owl-demo .item img{
+    display: block;
+    height: auto;
+}
+
+.texty a{
+    text-decoration: none;
+    color: black;
+}
+
+.texty a:hover{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.portfoliotext {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.img-portfolio {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.container-small-1 {
+    width: 100%;
+}
